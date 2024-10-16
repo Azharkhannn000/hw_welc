@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.cont1{
+    text-align: center;
+}
+.cont2{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.project{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 170px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgb(100, 99, 99);
+}
+.ul{
+    background-color: rgb(24, 132, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cont3{
+    background-color: rgb(246, 250, 254);
+}
+.cont4{
+    background-color: grey;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.message{
+    height: 120px;
+}
+button{
+    background-color: green;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+}
+.threefoot{
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
